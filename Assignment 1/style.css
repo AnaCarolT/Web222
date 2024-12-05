@@ -1,0 +1,66 @@
+li{
+    /* Using the type change it all */
+   color: aquamarine;
+    padding: 10px; /* Give distance in between objects */
+}
+
+.test {
+    /* Using class */
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.para{
+    /* Using class */
+    color: red;
+    text-align: center;
+}
+
+#h2{ 
+    /* Using id */
+    color: #957895; /*You can also use hexadecimal for colors */
+    text-align: center; /*Center the object */
+    font-family: sans-serif; /*Changes font style */
+}
+
+h3{
+   display: none;  /* make them invisible */
+}
+
+dt,dd{ 
+    /* Applying changes as a group */
+    font-size: 10px; /* Change size of the letters */
+    background-color: gray; /* Change background color */
+    width: 50%; /*control the width of the style sets before it */
+}
+
+/* 
+Sample of how to set up fonts for the whole site, code provided by the school
+@font-face {
+    font-family: "FontName";
+    src: url(font.woff2) format('woff2'),url(font.ttf) format('truetype');
+}
+body {
+    font-family: "FontName";
+} */
+
+body {
+    text-shadow: 10px 10px 10px gray; /*Places a shadow but it needs 3 values to be able to work */
+}
+
+a:link{ 
+    /* before clicking */
+    color: green;
+} 
+a:visited {
+    /* after clicking the link */
+    text-decoration: none;
+    color: red;
+}
+
+a:hover, a:active {
+    /* hovering over it */
+    text-decoration: underline;
+    color: blue;
+}
